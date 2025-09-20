@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 import heroBackground from "@/assets/hero-background.jpg";
 
 const Index = () => {
@@ -32,9 +33,11 @@ const Index = () => {
               <Button variant="hero" size="lg" className="text-lg px-8 py-4">
                 Get Started
               </Button>
-              <Button variant="ghost-white" size="lg" className="text-lg px-8 py-4">
-                Learn More
-              </Button>
+              <Link to="/about">
+                <Button variant="ghost-white" size="lg" className="text-lg px-8 py-4">
+                  Learn More
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
