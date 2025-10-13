@@ -1,18 +1,29 @@
-import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion.tsx";
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
-    <div> 
-      <Accordion type="single" collapsible className="w-full max-w-md mx-auto mt-10">
-        <AccordionItem value="item-1">
-          <AccordionTrigger>What is your return policy?</AccordionTrigger>
-          <AccordionContent>
-            Our return policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately we can’t offer you a refund or exchange.
-          </AccordionContent>
-        </AccordionItem>
-      </Accordion>
-    </div>
+    <div className="min-h-screen">
+      {/* Navigation/Lookup tab */}
+      <header className="border-b border-gray-200 flex items-center justify-between p-4 container-2xl">
+        <img src="" alt="Logo" className = "logo"/>
+        <div className="flex gap-4">
+          <a href = "#About">About us</a>
+          <a href = "#Whyus">Why choose us?</a>
+          <a href = "#Development">Development</a>
+          <a href = "#Lawyers">Lawyers</a>
+        </div>
+
+        <div className = "flex gap-4">
+          <Button>Login</Button>
+          <Button>Register</Button>
+        </div>
+      
+
+
+      </header>
+    </div> 
   );
 };
 
 export default Index;
+
