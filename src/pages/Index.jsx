@@ -21,7 +21,17 @@ const Index = () => {
 
 
       </header>
+
+
+      <section className="container mx-auto px-4 space-y-16 mt-16 pb-24">
+      {/* Hero Section */}
+      <div className="text-left text-xl"> Legal Assistant
+
+      </div>
+      </section>
     </div> 
+
+    
   );
 };
 

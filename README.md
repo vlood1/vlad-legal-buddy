@@ -1,73 +1,44 @@
-# Welcome to your Lovable project
+# Legal Buddy
 
-## Project info
+Legal Buddy is an intelligent tool designed to help users navigate legal documents, answer legal questions, and streamline legal research. This project leverages advanced natural language processing to provide accurate, context-aware assistance for legal professionals and individuals alike.
 
-**URL**: https://lovable.dev/projects/9e7d62a0-7827-4496-a1d5-8aa73559eb30
+## Features
 
-## How can I edit this code?
+- **Document Analysis:** Upload and analyse contracts, agreements, and other legal documents.
+- **Question Answering:** Ask legal questions and receive AI-generated, well-researched responses.
+- **Summarisation:** Generate concise summaries of lengthy legal texts.
+- **Citation Support:** Get references to relevant laws and precedents.
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/legal-buddy.git
+    ```
+2. Install dependencies:
+    ```bash
+    cd legal-buddy
+    npm install
+    ```
+3. Start the application:
+    ```bash
+    npm start
+    ```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9e7d62a0-7827-4496-a1d5-8aa73559eb30) and start prompting.
+## Usage
 
-Changes made via Lovable will be committed automatically to this repo.
+- Upload documents via the web interface.
+- Enter legal questions in plain English.
+- Review AI-generated answers and document summaries.
 
-**Use your preferred IDE**
+## Disclaimer
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Legal Buddy is for informational purposes only and does not provide legal advice. Always consult a qualified solicitor or barrister for legal matters.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Contributing
 
-Follow these steps:
+Contributions are welcome! Please open an issue or submit a pull request.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## License
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9e7d62a0-7827-4496-a1d5-8aa73559eb30) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is licensed under the MIT License.
