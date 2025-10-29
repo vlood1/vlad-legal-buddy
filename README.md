@@ -9,22 +9,6 @@ Legal Buddy is an intelligent tool designed to help users navigate legal documen
 - **Summarisation:** Generate concise summaries of lengthy legal texts.
 - **Citation Support:** Get references to relevant laws and precedents.
 
-## Getting Started
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/legal-buddy.git
-    ```
-2. Install dependencies:
-    ```bash
-    cd legal-buddy
-    npm install
-    ```
-3. Start the application:
-    ```bash
-    npm start
-    ```
-
 ## Usage
 
 - Upload documents via the web interface.
